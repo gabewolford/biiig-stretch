@@ -3,10 +3,11 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <main className="mx-8 my-14 lg:mx-36 lg:my-40 flex flex-col">
-      <header className="mb-16 lg:mb-32">
+    <main className="grid mx-8 my-14 lg:my-40 gap-x-8 grid-cols-2 lg:grid-cols-12">
+      
+      <header className="col-span-2 lg:col-start-2 lg:col-span-5 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch</h1>
-          <figure>
+          <figure classNa>
             <Image 
               src="/desktop-logo.svg"
               width={425}
@@ -25,13 +26,13 @@ export default function HomePage() {
             </Image>
           </figure>
           <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
-            <h2>is a purposefully small design-oriented development studio based in the heart of the Pacific Wonderland.</h2>
+            <h2>a purposefully small design-oriented development studio based in the heart of the Pacific Wonderland.</h2>
           </section>
       </header>
     
 
       
-      <section className="mb-10">
+      {/* <section className="mb-10">
         <h2 className="text-xs tracking-widest mb-4 text-gold">HIGHLIGHTED WORK</h2>
         <ul>
           <Link href="#" target="_blank" className="chunderline">
@@ -82,7 +83,7 @@ export default function HomePage() {
             <h2 className="chunderline">Get in touch.</h2>
           </Link>
         </div>
-      </section>
+      </section> */}
     </main>
   )
 }
