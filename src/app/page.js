@@ -3,9 +3,9 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <main className="grid mx-8 my-14 lg:my-40 gap-x-8 grid-cols-2 lg:grid-cols-12">
+    <main className="grid mx-8 my-14 md:mx-16 lg:my-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
       
-      <header className="col-span-2 lg:col-start-2 lg:col-span-5 mb-16 lg:mb-32">
+      <header className="col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-5 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch</h1>
           <figure classNa>
             <Image 
@@ -30,9 +30,9 @@ export default function HomePage() {
           </section>
       </header>
     
-      <div className="col-span-2 gap-8">
-        <section className="flex flex-col mb-8">
-          <header className="text-gold text-2xl font-medium mb-2">Services</header>
+      <div className="grid col-span-2 md:col-span-4 md:gap-8 mb-8 md:mb-12">
+        <section className="col-start-1 flex flex-col mb-8">
+          <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Services</header>
             <ul>
               <li>Full Stack Development</li>
               <li>Front-End Development</li>
@@ -47,8 +47,8 @@ export default function HomePage() {
               <li>& more</li>
             </ul>
         </section>
-        <section className="flex flex-col mb-8">
-          <header className="text-gold text-2xl font-medium mb-2">Technologies</header>
+        <section className="col-start-1 md:col-start-2 flex flex-col">
+          <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Technologies</header>
             <ul>
               <li>NextJS</li>
               <li>React</li>
@@ -65,82 +65,53 @@ export default function HomePage() {
         </section>
       </div>
 
-      <section className="grid col-span-2 gap-4">
-        <header className="text-gold text-[2rem] font-medium">Highlighted work</header>
-        <article className="flex flex-col gap-1">
-          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-        <article className="flex flex-col gap-1">
-          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-        <article className="flex flex-col gap-1">
-          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-        <article className="flex flex-col gap-1">
-          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-      </section>
-      
-      {/* <section className="mb-10">
-        <h2 className="text-xs tracking-widest mb-4 text-gold">HIGHLIGHTED WORK</h2>
-        <ul>
-          <Link href="#" target="_blank" className="chunderline">
-            <li>Coming soon...</li>
-          </Link><br/>
-        </ul>
-      </section>
-
-      <section className="flex flex-col md:flex-row w-full mb-10">
-        <div className="md:mr-16 mb-10 md:mb-0">
-          <h2 className="text-xs tracking-widest mb-4 text-gold">SERVICES</h2>
-            <ul>
-              <li>Full Stack Development</li>
-              <li>Front-End Development</li>
-              <li>Headless Development</li>
-              <li>Marketing & Portfolio Sites</li>
-              <li>Landing Pages</li>
-              <li>Domains & Hosting</li>
-              <li>Webmaster Services</li>
-              <li>Technical SEO</li>
-              <li>Consulting & Support</li>
-              <li>Digital Strategy</li>
-              <li>& more</li>
-            </ul>
-        </div>
-        <div>
-          <h2 className="text-xs tracking-widest mb-4 text-gold">TECHNOLOGIES</h2>
-          <ul>
-            <li>NextJS</li>
-            <li>React</li>
-            <li>Node</li>
-            <li>Sanity</li>
-            <li>Tailwind</li>
-            <li>Vercel</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javascript</li>
-            <li>Typescript</li>
-            <li>& more</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="flex flex-col md:flex-row w-full">
-        <div className="md:mr-16 mb-10 md:mb-0">
-          <h2 className="text-xs tracking-widest mb-2 text-gold">HAVE A JOB FOR US?</h2>
-          <Link href="mailto:gabe@biiigstretch.studio">
-            <h2 className="chunderline">Get in touch.</h2>
+      <section className="grid col-span-2 md:col-span-4 gap-4">
+        <header className="text-gold text-[2rem] font-medium md:text-4xl">Highlighted work</header>
+        <article className="flex flex-col gap-1 w-full">
+          <Link
+            href="https://islamoradafishingguidesandcharters.com"
+            className="text-[18px] font-semibold"
+          >
+            Islamorada Fishing Guides
           </Link>
-        </div>
-      </section> */}
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+
+        <article className="flex flex-col gap-1 w-full">
+          <Link
+            href="https://islamoradafishingguidesandcharters.com"
+            className="text-[18px] font-semibold"
+          >
+            Islamorada Fishing Guides
+          </Link>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+
+        <article className="flex flex-col gap-1 w-full">
+          <Link
+            href="https://islamoradafishingguidesandcharters.com"
+            className="text-[18px] font-semibold"
+          >
+            Islamorada Fishing Guides
+          </Link>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+
+        <article className="flex flex-col gap-1 w-full">
+          <Link
+            href="https://islamoradafishingguidesandcharters.com"
+            className="text-[18px] font-semibold"
+          >
+            Islamorada Fishing Guides
+          </Link>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+      </section>
+  
     </main>
   )
 }
