@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <main className="grid mx-8 my-14 md:mx-16 lg:my-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
       
-      <header className="col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-5 mb-16 lg:mb-32">
+      <header className="col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch</h1>
           <figure classNa>
             <Image 
@@ -30,7 +30,7 @@ export default function HomePage() {
           </section>
       </header>
     
-      <div className="grid col-span-2 md:col-span-4 md:gap-8 mb-8 md:mb-12">
+      <div className="grid col-span-2 lg:col-start-2 md:col-span-6 md:gap-8 mb-8 md:mb-12">
         <section className="col-start-1 flex flex-col mb-8">
           <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Services</header>
             <ul>
@@ -47,7 +47,7 @@ export default function HomePage() {
               <li>& more</li>
             </ul>
         </section>
-        <section className="col-start-1 md:col-start-2 flex flex-col">
+        <section className="col-start-1 md:col-start-2 lg:col-start-4 flex flex-col">
           <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Technologies</header>
             <ul>
               <li>NextJS</li>
@@ -65,8 +65,8 @@ export default function HomePage() {
         </section>
       </div>
 
-      <section className="grid col-span-2 md:col-span-4 gap-4">
-        <header className="text-gold text-[2rem] font-medium md:text-4xl">Highlighted work</header>
+      <section className="grid col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-12 gap-4">
+        <header className="text-gold text-[2rem] font-medium md:text-4xl lg:text-5xl">Highlighted work</header>
         <article className="flex flex-col gap-1 w-full">
           <Link
             href="https://islamoradafishingguidesandcharters.com"
