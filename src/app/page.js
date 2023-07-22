@@ -1,18 +1,24 @@
+import Image from "next/image"
 import Link from "next/link"
 
 export default function HomePage() {
   return (
     <main className="m-6 flex flex-col">
       <header className="w-full">
-          <h1 className="mb-3 tracking-tight text-rust text-5xl md:text-7xl lg:text-8xl">Biiig&nbsp;<span className="tracking-widest text-light-blue">Stretch</span></h1>
+          <h1 className="hidden">Biiig Stretch</h1>
+          <Image 
+            src="/desktop-logo.svg"
+            width={417}
+            height={0}
+            alt="Biiig Stretch Studio logo"
+          >
+          </Image>
       </header>
       <div className="grid grid-cols-1 mb-10 md:col-span-4 lg:col-span-2">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">
-            <div className="mb-1.5">is a purposefully small</div>
-            <div className="mb-1.5">design-oriented</div>
-            <div className="mb-1.5">development studio</div>
-            <div className="mb-1.5">based in the heart of</div>
-            <div className="mb-1.5">the Pacific Wonderland.</div>
+          <h2 className="md:text-[2rem]">
+            <div>is a purposefully small design-oriented</div>
+            <div>development studio based in the heart</div>
+            <div>the Pacific Wonderland.</div>
           </h2>
       </div>
       
