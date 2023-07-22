@@ -7,28 +7,19 @@ export default function HomePage() {
           <h1 className="mb-3 text-blue-300 text-5xl md:text-7xl lg:text-8xl">Biiig&nbsp;Stretch</h1>
       </header>
       <div className="grid grid-cols-1 mb-10 md:col-span-4 lg:col-span-2">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">is a purposefully small<br/>design-oriented<br/>development studio<br/>based somewhere in<br/>the Pacific Wonderland.</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">is a purposefully small<br/>design-oriented<br/>development studio<br/>based in the heart of<br/>the Pacific Wonderland.</h2>
       </div>
       
       <section className="mb-10">
         <h2 className="text-xs tracking-widest mb-4 text-blue-300">HIGHLIGHTED WORK</h2>
         <ul>
-          <Link href="#" target="_blank" className="underline">
-            <li>NASA Jet Propulsion Laboratory</li>
-          </Link><br/>
-          <Link href="https://islamoradafishingguidesandcharters.com/" target="_blank" className="underline">
-            <li>Islamorada Fishing Charters</li>
-          </Link><br/>
-          <Link href="#" target="_blank" className="underline">
-            <li>NASA Jet Propulsion Laboratory</li>
-          </Link><br/>
-          <Link href="https://smallhound.co/" target="_blank" className="underline">
-            <li>Small Hound</li>
+          <Link href="#" target="_blank" className="chunderline">
+            <li>Coming soon...</li>
           </Link><br/>
         </ul>
       </section>
 
-      <section className="flex flex-col md:flex-row w-full">
+      <section className="flex flex-col md:flex-row w-full mb-10">
         <div className="md:mr-16 mb-10 md:mb-0">
           <h2 className="text-xs tracking-widest mb-4 text-blue-300">SERVICES</h2>
             <ul>
@@ -58,6 +49,15 @@ export default function HomePage() {
             <li>Javascript</li>
             <li>& more</li>
           </ul>
+        </div>
+      </section>
+
+      <section className="flex flex-col md:flex-row w-full">
+        <div className="md:mr-16 mb-10 md:mb-0">
+          <h2 className="text-xs tracking-widest mb-2 text-blue-300">HAVE A JOB FOR US?</h2>
+          <Link href="mailto:gabe@biiigstretch.studio">
+            <h2 className="chunderline">Get in touch.</h2>
+          </Link>
         </div>
       </section>
     </main>
