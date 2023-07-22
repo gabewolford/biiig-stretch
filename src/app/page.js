@@ -77,38 +77,8 @@ export default function HomePage() {
           <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
           <p className="text-sm">2023</p>
         </article>
-
         <article className="flex flex-col gap-1 w-full">
-          <Link
-            href="https://islamoradafishingguidesandcharters.com"
-            className="text-[18px] font-semibold"
-          >
-            Islamorada Fishing Guides
-          </Link>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-
-        <article className="flex flex-col gap-1 w-full">
-          <Link
-            href="https://islamoradafishingguidesandcharters.com"
-            className="text-[18px] font-semibold"
-          >
-            Islamorada Fishing Guides
-          </Link>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
-        </article>
-
-        <article className="flex flex-col gap-1 w-full">
-          <Link
-            href="https://islamoradafishingguidesandcharters.com"
-            className="text-[18px] font-semibold"
-          >
-            Islamorada Fishing Guides
-          </Link>
-          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-          <p className="text-sm">2023</p>
+          <h3 className="text-[18px] font-semibold">Coming soon...</h3>
         </article>
       </section>
   
