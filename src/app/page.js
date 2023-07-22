@@ -63,8 +63,31 @@ export default function HomePage() {
               <li>& more</li>
             </ul>
         </section>
-          
       </div>
+
+      <section className="grid col-span-2 gap-4">
+        <header className="text-gold text-[2rem] font-medium">Highlighted work</header>
+        <article className="flex flex-col gap-1">
+          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+        <article className="flex flex-col gap-1">
+          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+        <article className="flex flex-col gap-1">
+          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+        <article className="flex flex-col gap-1">
+          <h4 className="text-[18px] font-semibold">Islamorada Fishing Guides</h4>
+          <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+          <p className="text-sm">2023</p>
+        </article>
+      </section>
       
       {/* <section className="mb-10">
         <h2 className="text-xs tracking-widest mb-4 text-gold">HIGHLIGHTED WORK</h2>
