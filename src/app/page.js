@@ -71,6 +71,7 @@ export default function HomePage() {
           <Link
             href="https://islamoradafishingguidesandcharters.com"
             className="text-[18px] font-semibold"
+            target="_blank"
           >
             Islamorada Fishing Guides
           </Link>
