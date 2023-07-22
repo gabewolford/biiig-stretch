@@ -3,24 +3,33 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <main className="m-6 flex flex-col">
-      <header className="w-full">
+    <main className="mx-8 my-14 lg:mx-36 lg:my-40 flex flex-col">
+      <header className="mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch</h1>
-          <Image 
-            src="/desktop-logo.svg"
-            width={417}
-            height={0}
-            alt="Biiig Stretch Studio logo"
-          >
-          </Image>
+          <figure>
+            <Image 
+              src="/desktop-logo.svg"
+              width={425}
+              height={0}
+              alt="Biiig Stretch Studio logo"
+              className="hidden md:block"
+            >
+            </Image>
+            <Image 
+              src="/mobile-logo.svg"
+              width={315 }
+              height={0}
+              alt="Biiig Stretch Studio logo"
+              className="block md:hidden"
+            >
+            </Image>
+          </figure>
+          <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
+            <h2>is a purposefully small design-oriented development studio based in the heart of the Pacific Wonderland.</h2>
+          </section>
       </header>
-      <div className="grid grid-cols-1 mb-10 md:col-span-4 lg:col-span-2">
-          <h2 className="md:text-[2rem]">
-            <div>is a purposefully small design-oriented</div>
-            <div>development studio based in the heart</div>
-            <div>the Pacific Wonderland.</div>
-          </h2>
-      </div>
+    
+
       
       <section className="mb-10">
         <h2 className="text-xs tracking-widest mb-4 text-gold">HIGHLIGHTED WORK</h2>
