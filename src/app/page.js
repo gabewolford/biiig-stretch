@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <main className="m-6 flex flex-col">
       <header className="w-full">
-          <h1 className="mb-3 text-blue-300 text-5xl md:text-7xl lg:text-8xl">Biiig&nbsp;Stretch</h1>
+          <h1 className="mb-3 tracking-tight text-blue-300 text-5xl md:text-7xl lg:text-8xl">Biiig&nbsp;<span className="tracking-widest">Stretch</span></h1>
       </header>
       <div className="grid grid-cols-1 mb-10 md:col-span-4 lg:col-span-2">
           <h2 className="text-3xl md:text-4xl lg:text-5xl">
