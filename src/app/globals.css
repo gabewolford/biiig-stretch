@@ -13,23 +13,23 @@
     color: #ffffff;
 }
 
-.underline {
+.chunderline {
     text-decoration: none;
     position: relative;
     display: inline-block;
 }
 
-.underline::before {
+.chunderline::before {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
     height: 2px;
-    width: 0; /* Start with zero width */
+    width: 0;
     background-color: #93c5fd; 
     transition: width 0.5s ease; 
 }
   
-.underline:hover::before {
+.chunderline:hover::before {
     width: 100%;
 }
