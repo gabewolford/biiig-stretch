@@ -30,7 +30,41 @@ export default function HomePage() {
           </section>
       </header>
     
-
+      <div className="col-span-2 gap-8">
+        <section className="flex flex-col mb-8">
+          <header className="text-gold text-2xl font-medium mb-2">Services</header>
+            <ul>
+              <li>Full Stack Development</li>
+              <li>Front-End Development</li>
+              <li>Headless Development</li>
+              <li>Marketing & Portfolio Sites</li>
+              <li>Landing Pages</li>
+              <li>Domains & Hosting</li>
+              <li>Webmaster Services</li>
+              <li>Technical SEO</li>
+              <li>Consulting & Support</li>
+              <li>Digital Strategy</li>
+              <li>& more</li>
+            </ul>
+        </section>
+        <section className="flex flex-col mb-8">
+          <header className="text-gold text-2xl font-medium mb-2">Technologies</header>
+            <ul>
+              <li>NextJS</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Sanity</li>
+              <li>Tailwind</li>
+              <li>Vercel</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Typescript</li>
+              <li>& more</li>
+            </ul>
+        </section>
+          
+      </div>
       
       {/* <section className="mb-10">
         <h2 className="text-xs tracking-widest mb-4 text-gold">HIGHLIGHTED WORK</h2>
