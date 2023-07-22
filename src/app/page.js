@@ -7,7 +7,13 @@ export default function HomePage() {
           <h1 className="mb-3 text-blue-300 text-5xl md:text-7xl lg:text-8xl">Biiig&nbsp;Stretch</h1>
       </header>
       <div className="grid grid-cols-1 mb-10 md:col-span-4 lg:col-span-2">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl">is a purposefully small<br/>design-oriented<br/>development studio<br/>based in the heart of<br/>the Pacific Wonderland.</h2>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl">
+            <div className="mb-1.5">is a purposefully small</div>
+            <div className="mb-1.5">design-oriented</div>
+            <div className="mb-1.5">development studio</div>
+            <div className="mb-1.5">based in the heart of</div>
+            <div className="mb-1.5">the Pacific Wonderland.</div>
+          </h2>
       </div>
       
       <section className="mb-10">
