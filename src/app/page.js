@@ -32,7 +32,7 @@ export default function HomePage() {
     
       <div className="grid col-span-2 lg:col-start-2 md:col-span-6 md:gap-8 mb-8 md:mb-12">
         <section className="col-start-1 flex flex-col mb-8">
-          <header className="text-gold mb-2 md:mb-4 liteweight text-2xl md:text-5xl">Services</header>
+          <header className="text-gold mb-2 md:mb-4 liteweight text-2xl md:text-3xl">Services</header>
             <ul>
               <li>Full Stack Development</li>
               <li>Front-End Development</li>
@@ -48,7 +48,7 @@ export default function HomePage() {
             </ul>
         </section>
         <section className="col-start-1 md:col-start-2 lg:col-start-4 flex flex-col">
-          <header className="text-gold font-medium mb-2 md:mb-4 liteweight text-2xl md:text-5xl">Technologies</header>
+          <header className="text-gold font-medium mb-2 md:mb-4 liteweight text-2xl md:text-3xl">Technologies</header>
             <ul>
               <li>NextJS</li>
               <li>React</li>
@@ -66,7 +66,7 @@ export default function HomePage() {
       </div>
 
       <section className="grid col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-12 gap-4">
-        <header className="text-gold font-medium liteweight text-2xl md:text-5xl">Highlighted work</header>
+        <header className="text-gold font-medium liteweight text-2xl md:text-3xl">Highlighted work</header>
         <article className="flex flex-col gap-1 w-full">
           <Link
             href="https://islamoradafishingguidesandcharters.com"
