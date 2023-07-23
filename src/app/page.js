@@ -31,7 +31,7 @@ export default function HomePage() {
       </header>
     
 
-      <div className="col-start 1 col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 flex flex-col lg:flex-row">
+      <div className="col-start 1 col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 flex flex-col lg:flex-row mb-16">
         <section className="mb-8 lg:mr-20">
           <header className="text-gold mb-2 md:mb-4 liteweight text-2xl md:text-3xl">Services</header>
             <ul>
@@ -49,7 +49,7 @@ export default function HomePage() {
             </ul>
         </section>
         <section className="mb-8 lg:mr-36">
-          <header className="text-gold font-medium mb-2 md:mb-4 liteweight text-2xl md:text-3xl">Technologies</header>
+          <header className="text-gold mb-2 md:mb-4 liteweight text-2xl md:text-3xl">Technologies</header>
             <ul>
               <li>NextJS</li>
               <li>React</li>
@@ -70,12 +70,12 @@ export default function HomePage() {
           <article className="flex flex-col gap-1 mb-2 w-full">
             <Link
               href="https://islamoradafishingguidesandcharters.com"
-              className="text-[18px] font-semibold"
+              className="text-[18px] hover:text-light-blue"
               target="_blank"
             >
               Islamorada Fishing Guides
             </Link>
-            <p className="text-sm">Full Stack Development, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
+            <p className="text-sm">Full Stack Development, Headless Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
             <p className="text-sm">2023</p>
           </article>
           <article className="flex flex-col gap-1 w-full">
@@ -83,8 +83,13 @@ export default function HomePage() {
           </article>
         </section>
       </div>
+
+      <section className="col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12">
+        <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">Got a project for us?</header>
+        <span><Link href="mailto:hello@biiigstretch.studio" className="hover:text-light-blue">hello@biiigstretch.studio</Link></span>
+        
+      </section>
       
-  
     </main>
   )
 }
