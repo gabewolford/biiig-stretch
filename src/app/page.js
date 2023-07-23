@@ -7,7 +7,7 @@ export default function HomePage() {
       
       <header className="col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch</h1>
-          <figure classNa>
+          <figure>
             <Image 
               src="/desktop-logo.svg"
               width={425}
@@ -32,7 +32,7 @@ export default function HomePage() {
     
       <div className="grid col-span-2 lg:col-start-2 md:col-span-6 md:gap-8 mb-8 md:mb-12">
         <section className="col-start-1 flex flex-col mb-8">
-          <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Services</header>
+          <header className="text-gold text-5xl md:text-7xl font-medium liteweight mb-2 md:mb-4">Services</header>
             <ul>
               <li>Full Stack Development</li>
               <li>Front-End Development</li>
@@ -48,7 +48,7 @@ export default function HomePage() {
             </ul>
         </section>
         <section className="col-start-1 md:col-start-2 lg:col-start-4 flex flex-col">
-          <header className="text-gold text-2xl font-medium md:text-4xl lg:text-5xl mb-2 md:mb-4">Technologies</header>
+          <header className="text-gold text-5xl md:text-7xl font-medium liteweight mb-2 md:mb-4">Technologies</header>
             <ul>
               <li>NextJS</li>
               <li>React</li>
@@ -66,7 +66,7 @@ export default function HomePage() {
       </div>
 
       <section className="grid col-span-2 md:col-span-4 lg:col-start-2 lg:col-span-12 gap-4">
-        <header className="text-gold text-[2rem] font-medium md:text-4xl lg:text-5xl">Highlighted work</header>
+        <header className="text-gold text-6xl md:text-7xl font-medium liteweight">Highlighted work</header>
         <article className="flex flex-col gap-1 w-full">
           <Link
             href="https://islamoradafishingguidesandcharters.com"
@@ -79,7 +79,7 @@ export default function HomePage() {
           <p className="text-sm">2023</p>
         </article>
         <article className="flex flex-col gap-1 w-full">
-          <h3 className="text-[18px] font-semibold">Coming soon...</h3>
+          <h3 className="text-[18px] font-semibold">More coming soon...</h3>
         </article>
       </section>
   
