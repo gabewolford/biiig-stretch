@@ -3,6 +3,7 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
+    <>
     <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
       
       <header className="col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
@@ -88,11 +89,12 @@ export default function HomePage() {
         <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">Got a project for us?</header>
         <span><Link href="mailto:hello@biiigstretch.studio" className="hover:text-light-blue">hello@biiigstretch.studio</Link></span>
       </section>
-
-      <footer className="lg:ml-24 xl:ml-28 mt-16 mb-4">
-          <p className="text-sm text-rust mx-auto">©&nbsp;2023&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
-      </footer>
       
     </main>
+    
+    <footer className="grid place-content-center mt-16 mb-4">
+        <p className="text-sm text-rust text-center">©&nbsp;2023&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
+    </footer>
+    </>
   )
 }
