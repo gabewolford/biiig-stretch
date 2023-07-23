@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Knockout';
-    src: url("/src/app//fonts//Liteweight.otf") format("opentype");
-    src: url("/src/app//fonts//Liteweight.ttf") format("truetype");
+    font-family: 'Liteweight';
+    src: url('/fonts/Liteweight.woff2') format('woff2');
+    src: url('/fonts/Liteweight.woff') format('woff');
+    src: url('/fonts/Liteweight.ttf') format('truetype');
 }
 
 * {
@@ -17,5 +18,5 @@
 }
 
 .liteweight {
-    font-family: 'Knockout', sans-serif;
+    font-family: 'Liteweight', sans-serif;
 }

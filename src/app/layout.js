@@ -1,16 +1,11 @@
 import './globals.css'
 import { Hanken_Grotesk } from 'next/font/google'
-import localFont from 'next/font/local'
+
 
 export const metadata = {
   title: 'Biiig Stretch Studio | Web Development',
   description: 'A purposefully small design-oriented development studio based in the heart of the Pacific Wonderland.',
 }
-
-export const knockout = localFont({
-  src: './fonts/Liteweight.ttf',
-  display: 'swap'
-})
 
 export const hanken = Hanken_Grotesk({
   subsets: ['latin'],
