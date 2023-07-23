@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Knockout';
+    src: url("/src/app//fonts//Liteweight.otf") format("opentype");
+    src: url("/src/app//fonts//Liteweight.ttf") format("truetype");
+}
+
 * {
     margin: 0;
     padding: 0;
