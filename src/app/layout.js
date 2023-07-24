@@ -1,5 +1,6 @@
 import './globals.css'
 import { Hanken_Grotesk } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 
 export const metadata = {
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={hanken.className}>
       <body>
         {children}
+        <Analytics />
       </body>
     </html>
   )
