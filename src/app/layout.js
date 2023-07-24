@@ -6,6 +6,9 @@ import { Analytics } from '@vercel/analytics/react';
 export const metadata = {
   title: 'Biiig Stretch Studio | Web Development',
   description: 'A purposefully small design-oriented development studio based in the heart of the Pacific Wonderland.',
+  icons: {
+    icon: "/square-icon.png"
+  },
 }
 
 export const hanken = Hanken_Grotesk({
