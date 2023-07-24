@@ -39,6 +39,7 @@ export default function HomePage() {
               <li>Full&nbsp;Stack&nbsp;Development</li>
               <li>Front-End&nbsp;Development</li>
               <li>Headless&nbsp;Development</li>
+              <li>Shopify&nbsp;Development</li>
               <li>Marketing&nbsp;&&nbsp;Portfolio&nbsp;Sites</li>
               <li>Landing&nbsp;Pages</li>
               <li>Domains&nbsp;&&nbsp;Hosting</li>
@@ -56,6 +57,7 @@ export default function HomePage() {
               <li>React</li>
               <li>Node</li>
               <li>Sanity</li>
+              <li>Hydrogen</li>
               <li>Tailwind</li>
               <li>Vercel</li>
               <li>HTML</li>
