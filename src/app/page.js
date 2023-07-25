@@ -39,9 +39,9 @@ export default function HomePage() {
               <li>Full&nbsp;Stack&nbsp;Development</li>
               <li>Front-End&nbsp;Development</li>
               <li>Headless&nbsp;Development</li>
-              <li>Shopify&nbsp;Development</li>
               <li>Marketing&nbsp;&&nbsp;Portfolio&nbsp;Sites</li>
               <li>Landing&nbsp;Pages</li>
+              <li>eCommerce&nbsp;Sites</li>
               <li>Domains&nbsp;&&nbsp;Hosting</li>
               <li>Webmaster&nbsp;Services</li>
               <li>Technical&nbsp;SEO</li>
