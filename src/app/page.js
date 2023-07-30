@@ -73,16 +73,25 @@ export default function HomePage() {
           <article className="flex flex-col gap-1 mb-2 w-full">
             <Link
               href="https://islamoradafishingguidesandcharters.com"
-              className="text-[18px] hover:text-light-blue"
+              className="text-[18px] font-medium hover:text-light-blue"
               target="_blank"
             >
               Islamorada Fishing Guides
             </Link>
-            <p className="text-sm">Full Stack Development, Headless Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Vercel</p>
-            <p className="text-sm">2023</p>
+            <p className="text-sm">Headless Development, Information Architecture, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel</p>
+            <p className="text-xs text-rust">2023</p>
+          </article>
+          <article className="flex flex-col gap-1 mb-4 w-full">
+            <p
+              className="text-[18px] font-medium hover:text-light-blue"
+            >
+              Team Oregon
+            </p>
+            <p className="text-sm">Full Stack Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
+            <p className="text-xs text-rust">in progress</p>
           </article>
           <article className="flex flex-col gap-1 w-full">
-            <h3 className="text-[18px] font-semibold">More coming soon...</h3>
+            <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
           </article>
         </section>
       </div>
