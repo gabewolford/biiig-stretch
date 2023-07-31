@@ -82,13 +82,26 @@ export default function HomePage() {
             <p className="text-xs text-rust">2023</p>
           </article>
           <article className="flex flex-col gap-1 mb-4 w-full">
-            <p
-              className="text-[18px] font-medium hover:text-light-blue"
-            >
-              Team Oregon
-            </p>
-            <p className="text-sm">Full Stack Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-            <p className="text-xs text-rust">in progress</p>
+            <Link
+                href="https://teamoregon.net"
+                className="text-[18px] font-medium hover:text-light-blue"
+                target="_blank"
+              >
+                Team Oregon
+              </Link>
+              <p className="text-sm">Full Stack Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
+              <p className="text-xs text-rust">in progress</p>
+          </article>
+          <article className="flex flex-col gap-1 mb-4 w-full">
+            <Link
+                href="https://smallhound.co"
+                className="text-[18px] font-medium hover:text-light-blue"
+                target="_blank"
+              >
+                Small Hound
+              </Link>
+              <p className="text-sm">Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
+              <p className="text-xs text-rust">in progress</p>
           </article>
           <article className="flex flex-col gap-1 w-full">
             <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
