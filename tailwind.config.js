@@ -7,11 +7,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'tan': '#F3E7E1',
-      'dark-blue': '#18182A',
+      'tan': '#011026',
+      'white': '#F3E7E1',
       'light-blue': '#88B9EF',
-      'rust': '#BD4F18',
-      'gold': '#90793E',
     },
     extend: {
     },
