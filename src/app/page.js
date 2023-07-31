@@ -79,7 +79,7 @@ export default function HomePage() {
               Islamorada Fishing Guides
             </Link>
             <p className="text-sm">Headless Development, Information Architecture, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel</p>
-            <p className="text-xs text-rust">2023</p>
+            <p className="text-xs text-light-blue">2023</p>
           </article>
           <article className="flex flex-col gap-1 mb-4 w-full">
             <Link
@@ -90,7 +90,7 @@ export default function HomePage() {
                 Team Oregon
               </Link>
               <p className="text-sm">Full Stack Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-              <p className="text-xs text-rust">in progress</p>
+              <p className="text-xs text-light-blue">in progress</p>
           </article>
           <article className="flex flex-col gap-1 mb-4 w-full">
             <Link
@@ -101,7 +101,7 @@ export default function HomePage() {
                 Small Hound
               </Link>
               <p className="text-sm">Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-              <p className="text-xs text-rust">in progress</p>
+              <p className="text-xs text-light-blue">in progress</p>
           </article>
           <article className="flex flex-col gap-1 w-full">
             <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
@@ -117,7 +117,7 @@ export default function HomePage() {
     </main>
     
     <footer className="grid place-content-center mt-16 mb-4">
-        <p className="text-sm text-rust text-center">©&nbsp;2023&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
+        <p className="text-sm text-light-blue text-center">©&nbsp;2023&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
     </footer>
     </>
   )
