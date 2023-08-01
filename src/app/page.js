@@ -40,6 +40,7 @@ export default function HomePage() {
               <li>Front-End&nbsp;Development</li>
               <li>Headless&nbsp;Development</li>
               <li>Marketing&nbsp;&&nbsp;Portfolio&nbsp;Sites</li>
+              <li>Web&nbsp;Design</li>
               <li>Landing&nbsp;Pages</li>
               <li>eCommerce&nbsp;Sites</li>
               <li>Domains&nbsp;&&nbsp;Hosting</li>
@@ -58,6 +59,7 @@ export default function HomePage() {
               <li>Node</li>
               <li>Sanity</li>
               <li>GraphQL</li>
+              <li>Shopify</li>
               <li>Tailwind</li>
               <li>Vercel</li>
               <li>HTML</li>
@@ -89,7 +91,7 @@ export default function HomePage() {
               >
                 Team Oregon
               </Link>
-              <p className="text-sm">Full Stack Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
+              <p className="text-sm">Full Stack Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
               <p className="text-xs text-light-blue">in progress</p>
           </article>
           <article className="flex flex-col gap-1 mb-4 w-full">
@@ -101,7 +103,7 @@ export default function HomePage() {
                 Small Hound
               </Link>
               <p className="text-sm">Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-              <p className="text-xs text-light-blue">in progress</p>
+              <p className="text-xs text-light-blue">2023</p>
           </article>
           <article className="flex flex-col gap-1 w-full">
             <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
