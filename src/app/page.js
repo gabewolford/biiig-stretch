@@ -57,7 +57,7 @@ export default function HomePage() {
               <li>React</li>
               <li>Node</li>
               <li>Sanity</li>
-              <li>Hydrogen</li>
+              <li>GraphQL</li>
               <li>Tailwind</li>
               <li>Vercel</li>
               <li>HTML</li>
