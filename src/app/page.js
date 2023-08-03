@@ -84,13 +84,13 @@ export default function HomePage() {
             <p className="text-xs text-light-blue">2023</p>
           </article>
           <article className="flex flex-col gap-1 mb-4 w-full">
-            <Link
-                href="https://team-oregon.vercel.app/"
+            <p
+                // href="https://team-oregon.vercel.app/"
                 className="text-[18px] font-medium hover:text-light-blue"
-                target="_blank"
+                // target="_blank"
               >
                 Team Oregon
-              </Link>
+              </p>
               <p className="text-sm">Full Stack Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
               <p className="text-xs text-light-blue">in progress</p>
           </article>
