@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import Project from "./components/Project"
 
 export default function HomePage() {
   return (
@@ -72,39 +73,31 @@ export default function HomePage() {
 
         <section className="gap-4">
           <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">Highlighted work</header>
-          <article className="flex flex-col gap-1 mb-2 w-full">
-            <Link
-              href="https://islamoradafishingguidesandcharters.com"
-              className="text-[18px] font-medium hover:text-light-blue"
-              target="_blank"
-            >
-              Islamorada Fishing Guides
-            </Link>
-            <p className="text-sm">Headless Development, Information Architecture, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel</p>
-            <p className="text-xs text-light-blue">2023</p>
-          </article>
-          <article className="flex flex-col gap-1 mb-4 w-full">
-            <Link
-                href="https://team-oregon.vercel.app/"
-                className="text-[18px] font-medium hover:text-light-blue"
-                target="_blank"
-              >
-                Team Oregon
-              </Link>
-              <p className="text-sm">Full Stack Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-              <p className="text-xs text-light-blue">under construction</p>
-          </article>
-          <article className="flex flex-col gap-1 mb-4 w-full">
-            <Link
-                href="https://smallhound.co"
-                className="text-[18px] font-medium hover:text-light-blue"
-                target="_blank"
-              >
-                Small Hound
-              </Link>
-              <p className="text-sm">Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel</p>
-              <p className="text-xs text-light-blue">2023</p>
-          </article>
+          
+          <Project
+            url={'https://islamoradafishingguidesandcharters.com'}
+            title={'Islamorada Fishing Guides'}
+            description={'Headless Development, Information Architecture, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel'}
+            year={'2023'}
+          >
+          </Project>
+
+          <Project
+            url={'https://team-oregon.vercel.app/'}
+            title={'Team Oregon'}
+            description={'Full Stack Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel'}
+            year={'2023'}
+          >
+          </Project>
+
+          <Project
+            url={'https://smallhound.co'}
+            title={'Small Hound'}
+            description={'Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel'}
+            year={'2023'}
+          >
+          </Project>
+
           <article className="flex flex-col gap-1 w-full">
             <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
           </article>
