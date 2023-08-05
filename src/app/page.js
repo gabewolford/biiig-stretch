@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Project from "./components/Project"
+import GetWork from "./api/GetWork"
 
 export default function HomePage() {
   return (
@@ -73,31 +74,7 @@ export default function HomePage() {
 
         <section className="gap-4">
           <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">Highlighted work</header>
-          
-          <Project
-            url={'https://islamoradafishingguidesandcharters.com'}
-            title={'Islamorada Fishing Guides'}
-            description={'Headless Development, Information Architecture, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel'}
-            year={'2023'}
-          >
-          </Project>
-
-          <Project
-            url={'https://team-oregon.vercel.app/'}
-            title={'Team Oregon'}
-            description={'Full Stack Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel'}
-            year={'2023'}
-          >
-          </Project>
-
-          <Project
-            url={'https://smallhound.co'}
-            title={'Small Hound'}
-            description={'Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel'}
-            year={'2023'}
-          >
-          </Project>
-
+          <GetWork />
           <article className="flex flex-col gap-1 w-full">
             <h3 className="text-[18px] font-semibold">More coming soon...</h3>      
           </article>
