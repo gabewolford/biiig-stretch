@@ -13,6 +13,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #F3E7E1;
+}
+
+body {
     background-color: #011026;
     color: #F3E7E1;
 }
