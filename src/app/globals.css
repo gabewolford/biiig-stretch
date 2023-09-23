@@ -3,24 +3,23 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Liteweight';
-    src: url('/fonts/Liteweight.woff2') format('woff2');
-    src: url('/fonts/Liteweight.woff') format('woff');
-    src: url('/fonts/Liteweight.ttf') format('truetype');
+  font-family: "Liteweight";
+  src: url("/fonts/Liteweight.woff2") format("woff2");
+  src: url("/fonts/Liteweight.woff") format("woff");
+  src: url("/fonts/Liteweight.ttf") format("truetype");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #F3E7E1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #011026;
-    color: #F3E7E1;
+  background-color: #011026;
+  color: #f3e7e1;
 }
 
 .liteweight {
-    font-family: 'Liteweight', sans-serif;
+  font-family: "Liteweight", sans-serif;
 }
