@@ -45,6 +45,7 @@ export default function HomePage() {
               <Service name="Headless&nbsp;Development" />
               <Service name="Application&nbsp;Development" />
               <Service name="Marketing&nbsp;Sites" />
+              <Service name="Portfolio&nbsp;Sites" />
               <Service name="Landing&nbsp;Pages" />
               <Service name="Web&nbsp;Design" />
               <Service name="Domains&nbsp;&&nbsp;Hosting" />
@@ -69,6 +70,7 @@ export default function HomePage() {
               <Technology name="GraphQL" website="https://graphql.org/" />
               <Technology name="Tailwind" website="https://tailwindcss.com/" />
               <Technology name="Vercel" website="https://vercel.com/" />
+              <Technology name="Figma" website="https://www.figma.com/" />
               <li className="hover:text-light-blue">HTML</li>
               <li className="hover:text-light-blue">CSS</li>
               <li className="hover:text-light-blue">Javascript/Typescript</li>
@@ -82,22 +84,28 @@ export default function HomePage() {
             </header>
             <div>
               <Project
+                name="VERT Outdoors"
+                website="https://vert-outdoors.vercel.app/"
+                year="under construction"
+                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
+              />
+              <Project
                 name="Islamorada Fishing Guides"
                 website="https://islamoradafishingguidesandcharters.com/"
                 year="2023"
-                description="Headless Development, Front End Development, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Vercel"
+                description="Headless Development, Front End Development, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
               />
               <Project
                 name="Team Oregon"
                 website="https://team-oregon.vercel.app/"
                 year="2023"
-                description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Vercel"
+                description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
               />
               <Project
                 name="Small Hound"
                 website="https://smallhound.co/"
                 year="2023"
-                description="Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Vercel"
+                description="Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Figma, Vercel"
               />
             </div>
             <article className="flex flex-col gap-1 w-full">
