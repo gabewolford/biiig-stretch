@@ -43,14 +43,13 @@ export default function HomePage() {
               <Service name="Full&nbsp;Stack&nbsp;Development" />
               <Service name="Front&nbsp;End&nbsp;Development" />
               <Service name="Headless&nbsp;Development" />
-              <Service name="Application&nbsp;Development" />
               <Service name="Marketing&nbsp;Sites" />
               <Service name="Portfolio&nbsp;Sites" />
+              <Service name="Microsites" />
               <Service name="Landing&nbsp;Pages" />
               <Service name="Web&nbsp;Design" />
               <Service name="Domains&nbsp;&&nbsp;Hosting" />
               <Service name="Webmaster&nbsp;Services" />
-              <Service name="Technical&nbsp;SEO" />
               <Service name="Consulting&nbsp;&&nbsp;Support" />
               <Service name="Digital&nbsp;Strategy" />
               <li>& more</li>
@@ -62,18 +61,17 @@ export default function HomePage() {
             </header>
             <ul>
               <Technology name="Next" website="https://nextjs.org/" />
+              <Technology name="React" website="https://react.dev/" />
               <Technology name="Vue" website="https://vuejs.org/" />
               <Technology name="Nuxt" website="https://nuxt.com/" />
               <Technology name="Node" website="https://nodejs.org/" />
-              <Technology name="Sanity" website="https://www.sanity.io/" />
-              <Technology name="Wordpress" website="https://wordpress.com/" />
-              <Technology name="GraphQL" website="https://graphql.org/" />
+              <Technology name="Sanity CMS" website="https://www.sanity.io/" />
               <Technology name="Tailwind" website="https://tailwindcss.com/" />
               <Technology name="Vercel" website="https://vercel.com/" />
               <Technology name="Figma" website="https://www.figma.com/" />
-              <li className="hover:text-light-blue">HTML</li>
-              <li className="hover:text-light-blue">CSS</li>
-              <li className="hover:text-light-blue">Javascript/Typescript</li>
+              <li className="hover:text-light-blue">HTML5</li>
+              <li className="hover:text-light-blue">CSS / SCSS</li>
+              <li className="hover:text-light-blue">Javascript</li>
               <li className="hover:text-light-blue">& more</li>
             </ul>
           </section>
@@ -86,7 +84,7 @@ export default function HomePage() {
               <Project
                 name="VERT Outdoors"
                 website="https://vert-outdoors.vercel.app/"
-                year="under construction"
+                year="2023"
                 description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
               />
               <Project
