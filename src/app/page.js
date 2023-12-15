@@ -82,10 +82,10 @@ export default function HomePage() {
             </header>
             <div>
               <Project
-                name="VERT Outdoors"
-                website="https://vert-outdoors.vercel.app/"
+                name="Team Oregon"
+                website="https://team-oregon.vercel.app/"
                 year="2023"
-                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
+                description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
               />
               <Project
                 name="Islamorada Fishing Guides"
@@ -94,16 +94,10 @@ export default function HomePage() {
                 description="Headless Development, Front End Development, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
               />
               <Project
-                name="Team Oregon"
-                website="https://team-oregon.vercel.app/"
+                name="VERT Outdoors"
+                website="https://vert-outdoors.vercel.app/"
                 year="2023"
-                description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
-              />
-              <Project
-                name="Small Hound"
-                website="https://smallhound.co/"
-                year="2023"
-                description="Front-End Development, Webmaster Services, Domains & Hosting, NextJS, React, Tailwind, Figma, Vercel"
+                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
               />
             </div>
             <article className="flex flex-col gap-1 w-full">
