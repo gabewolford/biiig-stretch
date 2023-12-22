@@ -83,7 +83,7 @@ export default function HomePage() {
             <div>
               <Project
                 name="Team Oregon"
-                website="https://team-oregon.vercel.app/"
+                website="https://teamoregon.cc/"
                 year="2023"
                 description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
               />
@@ -94,15 +94,21 @@ export default function HomePage() {
                 description="Headless Development, Front End Development, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
               />
               <Project
+                name="Design Portfolio"
+                website="https://alexbarron.site/"
+                year="2023"
+                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
+              />
+              <Project
                 name="VERT Outdoors"
                 website="https://vert-outdoors.vercel.app/"
                 year="2023"
                 description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
               />
             </div>
-            <article className="flex flex-col gap-1 w-full">
+            <div className="flex flex-col gap-1 w-full">
               <h3 className="text-[18px] font-semibold">More coming soon...</h3>
-            </article>
+            </div>
           </section>
         </div>
 
