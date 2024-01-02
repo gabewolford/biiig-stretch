@@ -9,6 +9,27 @@ export const metadata = {
   icons: {
     icon: "/square-icon.png",
   },
+  openGraph: {
+    title: "Biiig Stretch Studio | Design-Minded Web Development",
+    description:
+      "A purposefully small design-minded development studio based in the heart of the Pacific Wonderland.",
+    siteName: "Biiig Stretch Studio",
+    type: "website",
+    locale: "en_US",
+    url: "https://biiigstretch.studio/",
+    images: [
+      {
+        url: "https://biiigstretch.studio/images/square-icon.png",
+        alt: "Biiig Stretch Studio",
+      },
+    ],
+  },
+  images: [
+    {
+      url: "https://biiigstretch.studio/images/square-icon.png",
+      alt: "Biiig Stretch Studio",
+    },
+  ],
 };
 
 export const hanken = Hanken_Grotesk({
