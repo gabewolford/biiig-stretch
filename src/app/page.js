@@ -9,7 +9,7 @@ export default function HomePage() {
     <>
       <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
         <header className="col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
-          <h1 className="hidden">Biiig Stretch</h1>
+          <h1 className="hidden">Biiig Stretch Studio</h1>
           <figure>
             <Image
               src="/desktop-logo.svg"
@@ -28,8 +28,8 @@ export default function HomePage() {
           </figure>
           <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
             <h2>
-              a purposefully small design-oriented development studio based in
-              the heart of the Pacific Wonderland.
+              a purposefully small design-minded development studio based in the
+              heart of the Pacific Wonderland.
             </h2>
           </section>
         </header>
@@ -60,17 +60,17 @@ export default function HomePage() {
               Technologies
             </header>
             <ul>
-              <Technology name="Next" website="https://nextjs.org/" />
+              <Technology name="Next.js" website="https://nextjs.org/" />
               <Technology name="React" website="https://react.dev/" />
-              <Technology name="Vue" website="https://vuejs.org/" />
+              <Technology name="Vue.js" website="https://vuejs.org/" />
               <Technology name="Nuxt" website="https://nuxt.com/" />
               <Technology name="Node" website="https://nodejs.org/" />
               <Technology name="Sanity CMS" website="https://www.sanity.io/" />
               <Technology name="Tailwind" website="https://tailwindcss.com/" />
               <Technology name="Vercel" website="https://vercel.com/" />
               <Technology name="Figma" website="https://www.figma.com/" />
-              <li className="hover:text-light-blue">HTML5</li>
-              <li className="hover:text-light-blue">CSS / SCSS</li>
+              <li className="hover:text-light-blue">HTML</li>
+              <li className="hover:text-light-blue">CSS</li>
               <li className="hover:text-light-blue">Javascript</li>
               <li className="hover:text-light-blue">& more</li>
             </ul>
@@ -129,7 +129,7 @@ export default function HomePage() {
 
       <footer className="grid place-content-center mt-16 mb-4">
         <p className="text-sm text-light-blue text-center">
-          ©&nbsp;2023&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.
+          ©&nbsp;2024&nbsp;Biiig&nbsp;Stretch&nbsp;Studio.&nbsp;All&nbsp;Rights&nbsp;Reserved.
         </p>
       </footer>
     </>
