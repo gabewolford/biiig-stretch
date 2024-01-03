@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import "animate.css";
 import Technology from "./components/Technology";
 import Service from "./components/Service";
 import Project from "./components/Project";
@@ -15,14 +16,14 @@ export default function HomePage() {
           <Image
             src={desktopLogo}
             alt="Biiig Stretch Studio logo"
-            className="hidden md:block w-[650px]"
+            className="hidden md:block w-[650px] animate__animated animate__rubberBand animate__slower"
           ></Image>
           <Image
             src={mobileLogo}
             alt="Biiig Stretch Studio logo"
-            className="block md:hidden"
-          ></Image>
-          <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
+            className="block md:hidden animate__animated animate__rubberBand animate__slower"
+          />
+          <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px] animate__animated animate__fadeIn animate__slower">
             <h2>
               a purposefully small design-minded development studio based in the
               heart of the Pacific Wonderland.
