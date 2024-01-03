@@ -23,3 +23,7 @@ body {
 .liteweight {
   font-family: "Liteweight", sans-serif;
 }
+
+.animate__animated.animate__rubberBand {
+  --animate-duration: 1.5s;
+}

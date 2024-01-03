@@ -16,12 +16,12 @@ export default function HomePage() {
           <Image
             src={desktopLogo}
             alt="Biiig Stretch Studio logo"
-            className="hidden md:block w-[650px] animate__animated animate__rubberBand animate__slower"
+            className="hidden md:block w-[650px] animate__animated animate__rubberBand"
           ></Image>
           <Image
             src={mobileLogo}
             alt="Biiig Stretch Studio logo"
-            className="block md:hidden animate__animated animate__rubberBand animate__slower"
+            className="block md:hidden animate__animated animate__rubberBand"
           />
           <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
             <h2>
