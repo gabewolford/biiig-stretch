@@ -10,7 +10,7 @@ import mobileLogo from "../../public/mobile-logo.svg";
 export default function HomePage() {
   return (
     <>
-      <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
+      <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12 animate__animated animate__fadeIn animate__slower">
         <header className="col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch Studio</h1>
           <Image
@@ -23,7 +23,7 @@ export default function HomePage() {
             alt="Biiig Stretch Studio logo"
             className="block md:hidden animate__animated animate__rubberBand animate__slower"
           />
-          <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px] animate__animated animate__fadeIn animate__slower">
+          <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
             <h2>
               a purposefully small design-minded development studio based in the
               heart of the Pacific Wonderland.
