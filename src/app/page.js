@@ -3,6 +3,8 @@ import Link from "next/link";
 import Technology from "./components/Technology";
 import Service from "./components/Service";
 import Project from "./components/Project";
+import desktopLogo from "../../public/desktop-logo.svg";
+import mobileLogo from "../../public/mobile-logo.svg";
 
 export default function HomePage() {
   return (
@@ -10,22 +12,16 @@ export default function HomePage() {
       <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12">
         <header className="col-span-2 md:col-span-6 lg:col-start-2 lg:col-span-12 mb-16 lg:mb-32">
           <h1 className="hidden">Biiig Stretch Studio</h1>
-          <figure>
-            <Image
-              src="/desktop-logo.svg"
-              width={425}
-              height={0}
-              alt="Biiig Stretch Studio logo"
-              className="hidden md:block"
-            ></Image>
-            <Image
-              src="/mobile-logo.svg"
-              width={315}
-              height={0}
-              alt="Biiig Stretch Studio logo"
-              className="block md:hidden"
-            ></Image>
-          </figure>
+          <Image
+            src={desktopLogo}
+            alt="Biiig Stretch Studio logo"
+            className="hidden md:block w-[650px]"
+          ></Image>
+          <Image
+            src={mobileLogo}
+            alt="Biiig Stretch Studio logo"
+            className="block md:hidden"
+          ></Image>
           <section className="text-[28px] w-[310px] md:text-[32px] md:w-[555px]">
             <h2>
               a purposefully small design-minded development studio based in the
@@ -78,7 +74,7 @@ export default function HomePage() {
 
           <section className="gap-4">
             <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">
-              Highlighted work
+              Recent work
             </header>
             <div>
               <Project
