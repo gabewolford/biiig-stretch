@@ -45,6 +45,7 @@ export default function HomePage() {
               <Service name="Microsites" />
               <Service name="Landing&nbsp;Pages" />
               <Service name="Web&nbsp;Design" />
+              <Service name="Brand&nbsp;Design" />
               <Service name="Domains&nbsp;&&nbsp;Hosting" />
               <Service name="Webmaster&nbsp;Services" />
               <Service name="Consulting&nbsp;&&nbsp;Support" />
@@ -69,6 +70,7 @@ export default function HomePage() {
               <li className="hover:text-light-blue">HTML</li>
               <li className="hover:text-light-blue">CSS</li>
               <li className="hover:text-light-blue">Javascript</li>
+              <li className="hover:text-light-blue">Typescript</li>
               <li className="hover:text-light-blue">& more</li>
             </ul>
           </section>
@@ -88,7 +90,7 @@ export default function HomePage() {
                 name="Islamorada Fishing Guides"
                 website="https://islamoradafishingguidesandcharters.com/"
                 year="2023"
-                description="Headless Development, Front End Development, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
+                description="Headless Development, Front End Development, Web Design, Brand Design, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
               />
               <Project
                 name="Design Portfolio"
@@ -100,7 +102,7 @@ export default function HomePage() {
                 name="VERT Outdoors"
                 website="https://vert-outdoors.vercel.app/"
                 year="2023"
-                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
+                description="Headless Development, Front End Development, Web Design, Brand Design, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
               />
             </div>
             <div className="flex flex-col gap-1 w-full">
