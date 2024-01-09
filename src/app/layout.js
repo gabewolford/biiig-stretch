@@ -19,14 +19,14 @@ export const metadata = {
     url: "https://biiigstretch.studio/",
     images: [
       {
-        url: "https://biiigstretch.studio/square-icon.png",
+        url: "https://biiigstretch.studio/og-image.png",
         alt: "Biiig Stretch Studio",
       },
     ],
   },
   images: [
     {
-      url: "https://biiigstretch.studio/square-icon.png",
+      url: "https://biiigstretch.studio/og-image.png",
       alt: "Biiig Stretch Studio",
     },
   ],
