@@ -6,9 +6,8 @@ export const metadata = {
   title: "Biiig Stretch Studio | Design-Minded Web Development",
   description:
     "A purposefully small design-minded development studio based in the heart of the Pacific Wonderland.",
-  icons: {
-    icon: "/square-icon.png",
-  },
+  keywords:
+    "Web design, web development, website design, website development, web studio, portland web design, portland web development, portland oregon web design, portland oregon web development, full stack development, frontend development, headless development, marketing sites, landing pages, webmaster services, web consulting, technical seo, next.js, react, vue.js, nuxt.js, sanity cms, vercel, figma, tailwind, html, css, javascript, typescript, graphql",
   openGraph: {
     title: "Biiig Stretch Studio | Design-Minded Web Development",
     description:
