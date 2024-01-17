@@ -77,14 +77,20 @@ export default function HomePage() {
 
           <section className="gap-4">
             <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">
-              Recent work
+              Highlighted work
             </header>
             <div>
+              <Project
+                name="Meat Cheese Bread"
+                website="https://meat-cheese-bread.vercel.app/"
+                year="under construction"
+                description="Web Design, Headless Development, Technical SEO, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
+              />
               <Project
                 name="Team Oregon"
                 website="https://teamoregon.cc/"
                 year="2023"
-                description="Full Stack Development, Headless Development, Web Design, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
+                description="Web Design, Full Stack Development, Headless Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
               />
               <Project
                 name="Islamorada Fishing Guides"
