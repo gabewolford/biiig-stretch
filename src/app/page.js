@@ -6,6 +6,8 @@ import Service from "./components/Service";
 import Project from "./components/Project";
 import desktopLogo from "../../public/desktop-logo.svg";
 import mobileLogo from "../../public/mobile-logo.svg";
+import { Widget } from "@typeform/embed-react";
+import ContactForm from "./components/ContactForm";
 
 export default function HomePage() {
   return (
@@ -17,6 +19,7 @@ export default function HomePage() {
             src={desktopLogo}
             alt="Biiig Stretch Studio logo"
             className="hidden md:block w-[650px] animate__animated animate__rubberBand"
+            priority={true}
           ></Image>
           <Image
             src={mobileLogo}
@@ -121,14 +124,7 @@ export default function HomePage() {
           <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">
             Got a project for us?
           </header>
-          <span>
-            <Link
-              href="mailto:hello@biiigstretch.studio"
-              className="hover:text-light-blue"
-            >
-              hello@biiigstretch.studio
-            </Link>
-          </span>
+          <ContactForm />
         </section>
       </main>
 
