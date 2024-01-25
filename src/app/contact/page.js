@@ -1,13 +1,13 @@
 import Image from "next/image";
 import "animate.css";
-import Technology from "./components/Technology";
-import Service from "./components/Service";
-import Project from "./components/Project";
-import desktopLogo from "../../public/desktop-logo.svg";
-import mobileLogo from "../../public/mobile-logo.svg";
-import ContactForm from "./components/ContactForm";
+import Technology from "../components/Technology";
+import Service from "../components/Service";
+import Project from "../components/Project";
+import desktopLogo from "../../../public/desktop-logo.svg";
+import mobileLogo from "../../../public/mobile-logo.svg";
+import ContactForm from "../components/ContactForm";
 
-export default function HomePage() {
+export default function ContactPage() {
   return (
     <>
       <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12 animate__animated animate__fadeIn animate__slower">
