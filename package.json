@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^14.1.0",
     "@sanity/image-url": "^1.0.2",
     "@sanity/vision": "^3.14.5",
     "@typeform/embed-react": "^3.10.0",
@@ -17,7 +18,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
-    "next": "13.4.10",
+    "next": "^14.1.0",
     "next-sanity": "^5.1.6",
     "postcss": "8.4.26",
     "react": "18.2.0",

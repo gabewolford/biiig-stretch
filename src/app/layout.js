@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Hanken_Grotesk } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export const metadata = {
   title: "Biiig Stretch Studio | Design-Minded Web Development",
@@ -37,12 +38,15 @@ export const hanken = Hanken_Grotesk({
 });
 
 export default function RootLayout({ children }) {
+  const googleId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="en" className={`lowercase ${hanken.className}`}>
       <body>
         {children}
         <Analytics />
       </body>
+      <GoogleTagManager gtmId={googleId} />
     </html>
   );
 }
