@@ -82,12 +82,6 @@ export default function HomePage() {
             </header>
             <div>
               <Project
-                name="Meat Cheese Bread"
-                website="https://meat-cheese-bread.vercel.app/"
-                year="under construction"
-                description="Web Design, Headless Development, Technical SEO, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
-              />
-              <Project
                 name="Team Oregon"
                 website="https://teamoregon.cc/"
                 year="2023"
@@ -110,6 +104,12 @@ export default function HomePage() {
                 website="https://vert-outdoors.vercel.app/"
                 year="2023"
                 description="Headless Development, Front End Development, Web Design, Brand Design, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
+              />
+              <Project
+                name="Meat Cheese Bread"
+                website="https://meat-cheese-bread.vercel.app/"
+                year="under construction"
+                description="Web Design, Headless Development, Technical SEO, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
               />
             </div>
             <div className="flex flex-col gap-1 w-full">
