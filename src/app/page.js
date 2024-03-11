@@ -6,8 +6,18 @@ import Project from "./components/Project";
 import desktopLogo from "../../public/desktop-logo.svg";
 import mobileLogo from "../../public/mobile-logo.svg";
 import ContactForm from "./components/ContactForm";
+import { client } from "../../sanity/lib/client";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const data = await client.fetch(`
+  *[type == document && _type == "projects"]{
+    name,
+    uRL,
+    year,
+    description,
+  } | order(year desc)
+  `);
+
   return (
     <>
       <main className="grid mx-8 mt-14 md:mx-16 lg:mt-40 gap-x-8 grid-cols-2 md:grid-cols-4 lg:grid-cols-12 animate__animated animate__fadeIn animate__slower">
@@ -80,38 +90,19 @@ export default function HomePage() {
             <header className="text-gold font-medium liteweight text-2xl md:text-3xl mb-2 md:mb-4">
               Highlighted work
             </header>
-            <div>
-              <Project
-                name="Team Oregon"
-                website="https://teamoregon.cc/"
-                year="2023"
-                description="Web Design, Full Stack Development, Headless Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, NextAuth, MongoDB, Paypal, Tailwind, Figma, Vercel"
-              />
-              <Project
-                name="Islamorada Fishing Guides"
-                website="https://islamoradafishingguidesandcharters.com/"
-                year="2023"
-                description="Headless Development, Front End Development, Web Design, Brand Design, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
-              />
-              <Project
-                name="Design Portfolio"
-                website="https://alexbarron.site/"
-                year="2023"
-                description="Headless Development, Front End Development, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
-              />
-              <Project
-                name="VERT Outdoors"
-                website="https://vert-outdoors.vercel.app/"
-                year="2023"
-                description="Headless Development, Front End Development, Web Design, Brand Design, Site Migration, Technical SEO, Digital Strategy, Webmaster Services, Domains & Hosting, Nuxt, Sanity, Tailwind, Figma, Vercel"
-              />
-              <Project
-                name="Meat Cheese Bread"
-                website="https://meat-cheese-bread.vercel.app/"
-                year="under construction"
-                description="Web Design, Headless Development, Technical SEO, Webmaster Services, Domains & Hosting, NextJS, React, Sanity, Tailwind, Figma, Vercel"
-              />
-            </div>
+            <ul>
+              {data?.map((project, index) => (
+                <li key={index}>
+                  <Project
+                    name={project.name}
+                    website={project.uRL}
+                    year={project.year}
+                    description={project.description}
+                  />
+                </li>
+              ))}
+            </ul>
+
             <div className="flex flex-col gap-1 w-full">
               <h3 className="text-[18px] font-semibold">More coming soon...</h3>
             </div>
