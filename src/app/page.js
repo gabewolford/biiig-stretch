@@ -52,6 +52,7 @@ export default async function HomePage() {
               <Service name="Front&nbsp;End&nbsp;Development" />
               <Service name="Headless&nbsp;Development" />
               <Service name="Marketing&nbsp;Sites" />
+              <Service name="eCommerce&nbsp;Sites" />
               <Service name="Portfolio&nbsp;Sites" />
               <Service name="Microsites" />
               <Service name="Landing&nbsp;Pages" />
@@ -75,6 +76,7 @@ export default async function HomePage() {
               <Technology name="Nuxt" website="https://nuxt.com/" />
               <Technology name="Node" website="https://nodejs.org/" />
               <Technology name="Sanity CMS" website="https://www.sanity.io/" />
+              <Technology name="Shopify" website="https://www.shopify.com/" />
               <Technology name="Tailwind" website="https://tailwindcss.com/" />
               <Technology name="Vercel" website="https://vercel.com/" />
               <Technology name="Figma" website="https://www.figma.com/" />
